@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+}
+.maintag{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color:#323640;
+    width: 500px;
+    height: auto;
+    border-radius: 3%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+.logo{
+    height: 76px;
+    width: 80px;
+    padding-top: 48px;
+    margin: 0 auto;
+
+}
+
+.email{
+    width: 400px;
+    height: 58px;
+border-radius: 8px;
+background-color: #212327;
+border: 1px solid#FFFFFF29;
+color: white;
+margin-top: 48px;
+}
+
+.password{
+    width: 400px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #212327;
+border: 1px solid#FFFFFF29;
+color: white;
+margin-top: 24px;
+
+}
+.email::placeholder{
+    font-size: 20px;
+padding-left: 24px;
+}
+
+.password::placeholder{
+  font-size: 20px;
+  padding-left: 24px;
+}
+
+
+.forgot-password{
+    color: #9399A3;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 275px;
+}
+.main-div-line{
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+
+.line1{
+    width: 115px;
+    border: 0.1px solid #9399A3;
+    margin-left: 50px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.line2{
+    width: 115px;
+    border: 0.1px solid #9399A3;
+    margin-right: 50px;
+    margin-left: 8px;
+margin-top: 8px;
+}
+
+
+.sign-in{
+background-color: #691AFD;
+color: white;
+width: 400px;
+height: 58px;
+font-size: 24px;
+border-radius: 8px;
+margin-left: 48px;
+margin-top: 10px;
+}
+.or{
+    color: #9399A3;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 24px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    padding-bottom: 48px;
+}
+
+.facebook{
+    background-color: #3549E5;
+    color: #FFFFFF;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-right: 30px;
+}
+.google{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.twiter{
+    background-color: #219FEF;
+    color: #FFFFFF;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
